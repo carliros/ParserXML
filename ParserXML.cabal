@@ -1,0 +1,23 @@
+Name:                ParserXML
+Version:             0.1
+Synopsis:            Parser XML
+Description:         Parser XML
+Homepage:            http://comunidadhaskell.org
+License:             BSD3
+License-File:        LICENSE
+Author:              Carlos Gomez
+Maintainer:          carliros.g@gmail.com
+Category:            Parser
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+extra-source-files:  README, Makefile, 
+                     src/Main.hs, src/ParserGenericXML.hs, src-derived/FormatTree.hs, src-derived/NTree.hs, 
+                     test/ex0.html, test/ex1.html, test/ex2.html, test/ex3.html, test/ex4.html, test/ex5.xml
+                    
+Executable pxml
+    hs-source-dirs: src, src-derived
+    Main-is:        Main.hs
+    Build-depends:    base
+                    , uu-parsinglib
+                    , uulib
+

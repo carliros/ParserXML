@@ -1,0 +1,25 @@
+
+Parser XML
+==========
+
+Es un parser simple para el lenguaje de marcado XML.
+
+Elaborado para la presentacion de uu-parsing, version 2.7.1.1
+de la comunidad haskell san simon.
+
+Instalar:
+    runhaskell Setup.hs configure
+    runhaskell Setup.hs build
+    runhaskell Setup.hs install
+
+Probar algunos ejemplos:
+    pxml test/ex1.html
+    pxml test/ex2.html
+    pxml test/ex3.html
+    ...
+    pxml test/ex5.xml
+
+Autor:
+    Carlos Gomez
+    carliros.g@gmail.com
+
