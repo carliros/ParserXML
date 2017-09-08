@@ -1,0 +1,16 @@
+
+DATA NRoot
+    | NRoot ntree: NTree
+
+DATA NTree
+    | NTree Node 
+            ntrees: NTrees
+
+TYPE NTrees = [NTree]
+
+DATA Node
+    | NTag  tag : String 
+            attributes: {[(String, String)]}
+    | NText text: String
+
+DERIVING *: Show
